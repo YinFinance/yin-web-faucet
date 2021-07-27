@@ -6,11 +6,8 @@ import { ethers } from "ethers";
 
 let abi = abiJSON;
 const provider = new ethers.providers.Web3Provider(window.ethereum);
-
 const signer = provider.getSigner();
-
 const contractAddress = "0x60288dec3343db133a8288c70b8e151e52627ee2";
-
 const faucetContract = new ethers.Contract(contractAddress, abi, signer);
 
 function App() {
