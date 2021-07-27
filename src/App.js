@@ -41,7 +41,7 @@ function App() {
      <div className="case">
        <form className="form" onSubmit={mintTokens}>
           <p>Request tokens from YIN Finance Alpha Faucet</p>
-          <p>You will get 100 <a href="https://rinkeby.etherscan.io/address/0x67751356e2ac7ca20cb991bf3edf7d4a439b7cbe" target='_blank'>tusdt</a>, 100<a href="https://rinkeby.etherscan.io/address/0x8543a038bef4de734b4bc2235a97f7eaf439625f" target='_blank'>tdai</a>, 100<a href="https://rinkeby.etherscan.io/address/0x130785fd1f629956d221d7226f4c03e1b692064a" target='_blank'>tfei</a>, 100<a href="https://rinkeby.etherscan.io/address/0x849cdf076a4cccc724258d88caebfd566e808305" target='_blank'>trai</a>, 100<a href="https://rinkeby.etherscan.io/address/0x3ad6b1f58e37f17f295edc74200ce140bd3020c3" target='_blank'>tusdc</a> in Rinkeby.</p>
+          <p>You will get 200 <a href="https://rinkeby.etherscan.io/address/0x67751356e2ac7ca20cb991bf3edf7d4a439b7cbe" target='_blank'>tusdt</a>, 200<a href="https://rinkeby.etherscan.io/address/0x8543a038bef4de734b4bc2235a97f7eaf439625f" target='_blank'>tdai</a>, 200<a href="https://rinkeby.etherscan.io/address/0x130785fd1f629956d221d7226f4c03e1b692064a" target='_blank'>tfei</a>, 200<a href="https://rinkeby.etherscan.io/address/0x849cdf076a4cccc724258d88caebfd566e808305" target='_blank'>trai</a>, 200<a href="https://rinkeby.etherscan.io/address/0x3ad6b1f58e37f17f295edc74200ce140bd3020c3" target='_blank'>tusdc</a> in Rinkeby.</p>
 
          <label>
            <input
